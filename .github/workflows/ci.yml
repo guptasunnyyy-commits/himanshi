@@ -32,10 +32,3 @@ jobs:
       - name: Notify success
         run: echo "Pipeline completed successfully!"
 
-To save:
-CTRL O  Enter  CTRL X
-
-git add .github/
-git commit -m "ci: add GitHub Actions pipeline"
-git push origin main
-
